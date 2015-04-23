@@ -21,7 +21,7 @@ public class DumpLog {
 			i++;
 			if(i==100000)
 			{
-				logger.info("testing");
+				logger.info("testing...............");
 				i=0;
 			}
 		}
