@@ -19,10 +19,12 @@ public class DumpLog {
 		{
 			logger.info("Logging.................");
 			i++;
-			if(i==100000)
+			if(i==2)
 			{
 				logger.info("testing...............");
 				i=0;
+				logger.error("error", "eeerrr");
+				logger.error("error", new NullPointerException());
 			}
 		}
 	}

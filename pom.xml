@@ -24,6 +24,11 @@
     	<artifactId>spring-webmvc</artifactId>
     	<version>3.2.0.RELEASE</version>
     </dependency>
+    <dependency>
+    	<groupId>com.ltrf</groupId>
+    	<artifactId>ltrflog4j</artifactId>
+    	<version>1.0</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>dumplogger</finalName>
