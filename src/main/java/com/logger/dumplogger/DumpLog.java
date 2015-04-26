@@ -19,7 +19,7 @@ public class DumpLog {
 		{
 			logger.info("Logging.................");
 			i++;
-			if(i==2)
+			if(i==100000)
 			{
 				logger.info("testing...............");
 				i=0;
