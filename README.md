@@ -1,2 +1,2 @@
 # dumplogger
-dump the logs to file using log4j
+generates th logs using log4j framework
